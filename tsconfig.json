@@ -6,7 +6,7 @@
         "target": "es6",
         "jsx": "react-jsx",
         "allowJs": false,
-        "types": ["node", "react", "react-router-dom", "@types/jest"],
+        "types": ["node", "react", "react-router-dom"],
         "typeRoots": ["node_modules/@types"],
         "moduleResolution": "node",
         "allowSyntheticDefaultImports": true,
