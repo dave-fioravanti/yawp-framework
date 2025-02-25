@@ -1,0 +1,152 @@
+// * ===========================================================================
+// * Variables - Borders
+// * ===========================================================================
+
+$--border-color: #282828;
+$--border-radius: 8px;
+$--border-style: solid;
+$--border-width: 1px;
+
+// * ===========================================================================
+// * Variables - Box Shadows
+// * ===========================================================================
+
+$--box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.333);
+$--box-shadow--inset: rgba(50, 50, 93, 0.25) 0px 16px 32px -16px inset, rgba(0, 0, 0, 0.333) 0px 16px 32px -16px inset;
+$--box-shadow--surface: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+// * ===========================================================================
+// * Variables - Breakpoints
+// * ===========================================================================
+
+$--breakpoint--x-small: 320px;
+$--breakpoint--small: 480px;
+$--breakpoint--medium: 768px;
+$--breakpoint--large: 1024px;
+$--breakpoint--x-large: 1280px;
+$--breakpoint--xx-large: 1440px;
+
+// * ===========================================================================
+// * Variables - Colors
+// * ===========================================================================
+
+$--color--black: #282828;
+$--color--blue: #1D82B8;
+$--color--gray: #444444;
+$--color--green: #489f64;
+$--color--orange: #FF9656;
+$--color--pink: #f342d9;
+$--color--purple: #5d00e8;
+$--color--red: #E81C30;
+$--color--white: #ffffff;
+$--color--yellow: #FFE57A;
+
+$--color--primary: #7F5957;
+$--color--primary-variant: #564241;
+$--color--secondary: #a1b490;
+$--color--secondary-variant: #4a5d38;
+
+// * ===========================================================================
+// * Variables - Font Families
+// * ===========================================================================
+
+$--font-family--primary: "Roboto";
+$--font-family--secondary: "Roboto Slab";
+$--font-family--tertiary: "Roboto Mono";
+
+// * ===========================================================================
+// * Variables - Font Sizes
+// * ===========================================================================
+
+$--font-size--base: 1rem;
+$--font-size--h1: 2.5rem;
+$--font-size--h2: 2rem;
+$--font-size--h3: 1.75rem;
+$--font-size--h4: 1.5rem;
+$--font-size--h5: 1.25rem;
+$--font-size--h6: 1rem;
+
+// * ===========================================================================
+// * Variables - Font Weights
+// * ===========================================================================
+
+$--font-weight--bold: 700;
+$--font-weight--extra-bold: 800;
+$--font-weight--extra-light: 200;
+$--font-weight--heavy: 900;
+$--font-weight--light: 300;
+$--font-weight--medium: 500;
+$--font-weight--normal: 400;
+$--font-weight--semi-bold: 600;
+$--font-weight--thin: 100;
+
+// * ===========================================================================
+// * Variables - Spacing
+// * ===========================================================================
+
+$--spacing: 16px;
+$--spacing--gutter: 16px;
+$--spacing--large: 24px;
+$--spacing--medium: 16px;
+$--spacing--small: 8px;
+$--spacing--x-large: 32px;
+$--spacing--x-small: 4px;
+
+// * ===========================================================================
+// * Root Variables
+// * ===========================================================================
+
+:root {
+
+    ----border-color: #{$--border-color};
+    ----border-radius: #{$--border-radius};
+    ----border-style: #{$--border-style};
+    ----border-width: #{$--border-width};
+
+    ----breakpoint--large: #{$--breakpoint--large};
+    ----breakpoint--medium: #{$--breakpoint--medium};
+    ----breakpoint--small: #{$--breakpoint--small};
+    ----breakpoint--x-large: #{$--breakpoint--x-large};
+    ----breakpoint--xx-large: #{$--breakpoint--xx-large};
+
+    ----color--black: #{$--color--black};
+    ----color--blue: #{$--color--blue};
+    ----color--gray: #{$--color--gray};
+    ----color--green: #{$--color--green};
+    ----color--orange: #{$--color--orange};
+    ----color--pink: #{$--color--pink};
+    ----color--purple: #{$--color--purple};
+    ----color--red: #{$--color--red};
+    ----color--white: #{$--color--white};
+    ----color--yellow: #{$--color--yellow};
+
+    ----font-family--primary: #{$--font-family--primary};
+    ----font-family--secondary: #{$--font-family--secondary};
+    ----font-family--tertiary: #{$--font-family--tertiary};
+
+    ----font-size--base: #{$--font-size--base};
+    ----font-size--h1: #{$--font-size--h1};
+    ----font-size--h2: #{$--font-size--h2};
+    ----font-size--h3: #{$--font-size--h3};
+    ----font-size--h4: #{$--font-size--h4};
+    ----font-size--h5: #{$--font-size--h5};
+    ----font-size--h6: #{$--font-size--h6};
+
+    ----font-weight--bold: #{$--font-weight--bold};
+    ----font-weight--extra-bold: #{$--font-weight--extra-bold};
+    ----font-weight--extra-light: #{$--font-weight--extra-light};
+    ----font-weight--heavy: #{$--font-weight--heavy};
+    ----font-weight--light: #{$--font-weight--light};
+    ----font-weight--medium: #{$--font-weight--medium};
+    ----font-weight--normal: #{$--font-weight--normal};
+    ----font-weight--semi-bold: #{$--font-weight--semi-bold};
+    ----font-weight--thin: #{$--font-weight--thin};
+
+    ----spacing: #{$--spacing};
+    ----spacing--large: #{$--spacing--large};
+    ----spacing--medium: #{$--spacing--medium};
+    ----spacing--small: #{$--spacing--small};
+    ----spacing--x-large: #{$--spacing--x-large};
+    ----spacing--x-small: #{$--spacing--x-small};
+
+}

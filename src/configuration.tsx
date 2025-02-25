@@ -2,8 +2,8 @@
 // * Module Imports
 // * ===========================================================================
 
-import * as Theme from "./modules/theme/typescript/theme.reducer";
-import * as Yawp from "./modules/yawp/typescript/yawp.reducer";
+import * as Theme from "./modules/theme/ts/theme.reducer";
+import * as Yawp from "./modules/yawp/ts/yawp.reducer";
 
 // * ===========================================================================
 // * Configuration Exports

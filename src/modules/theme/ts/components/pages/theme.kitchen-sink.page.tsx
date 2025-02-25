@@ -10,7 +10,7 @@ import { useLocation } from "react-router-dom";
 // * TypeScript & Asset Imports
 // * ===========================================================================
 
-import { Formatting } from "../../../../yawp/typescript/interfaces/yawp.formatting.interface";
+import { Formatting } from "../../../../yawp/ts/interfaces/yawp.formatting.interface";
 
 // * ===========================================================================
 // * TypeScript Aliases

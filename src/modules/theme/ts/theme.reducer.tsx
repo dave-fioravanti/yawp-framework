@@ -8,6 +8,8 @@ export { Module } from "./interfaces/theme.module.interface";
 // * Component Exports - Atoms
 // * ===========================================================================
 
+export { Icon } from "./components/atoms/theme.icon.atom";
+
 // * ===========================================================================
 // * Component Exports - Molecules
 // * ===========================================================================
